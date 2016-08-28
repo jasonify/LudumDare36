@@ -10,7 +10,6 @@ function Update () {
 function OnTriggerEnter(col : Collider) {
 
 
-	col.transform.position = Vector3(0, 0.12, 0);
 
 
 	var rb = col.GetComponent.<Rigidbody>();
@@ -19,7 +18,11 @@ function OnTriggerEnter(col : Collider) {
 	rb.isKinematic = false; 
 	Debug.Log("WorldEdge Hit");
 
+	col.transform.position = Vector3(0, 0.12, 0);
 	if(col.gameObject.tag == "Player"){
+		col.transform.position = Vector3(-6.75, 0.12, 0.23);
+
+
 		Debug.Log("Game over :(");
 		// TODO: agme over screen
 		GlobalCoins.CoinCount = 0;

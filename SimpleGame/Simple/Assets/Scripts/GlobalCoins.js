@@ -10,6 +10,6 @@ function Start () {
 
 function Update () {
 
-	CoinDisplay.GetComponent.<Text>().text = "Coins: " + CoinCount;
+	CoinDisplay.GetComponent.<Text>().text = "Gems: " + CoinCount;
 	
 }
