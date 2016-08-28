@@ -1,0 +1,17 @@
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/obj/Debug/Assembly-CSharp.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/UnityEngine.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/UnityEditor.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Mono.Cecil.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/jasonbautista/Google Drive/Main/EVERYDAY/_NEW_EVERYDAY/039LudumDare/SimpleGame/Simple/Temp/bin/Debug/Mono.Cecil.Mdb.dll

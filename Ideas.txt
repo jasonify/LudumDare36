@@ -9,8 +9,16 @@ TODOS:
 [ ] game over screen
 [ ]  ** Can make little ticky aniamted characters that stand on the edge
 [ ] feedback
+
+[ ] model ancient torches?
+[ ] shake the walls too and the floor
+[ ] have a fake false floor
 [ ] maybe lives?
-[ ] 
+[ ] lighting
+[ ] shirnk ball when dying? / make black
+[ ] fire making tutorial
+
+[ ] could make the map longer and have the camera follow
 
 
 [x] textures
