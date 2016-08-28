@@ -21,5 +21,5 @@ function Update () {
 
 
 function OnCollisionEnter(collision: Collision) {
-	Debug.Log("Colliding!");
+	//Debug.Log("Colliding!");
 }
