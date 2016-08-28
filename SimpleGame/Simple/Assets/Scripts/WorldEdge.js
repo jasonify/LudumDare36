@@ -18,9 +18,10 @@ function OnTriggerEnter(col : Collider) {
 	} else{
 
 		if(col.gameObject.tag == "Player"){
-
-			yield WaitForSeconds(2);
 			col.gameObject.tag ="DeadPlayer";
+			var oldMateiral = col.gameObject.GetComponent.<Renderer>().material.color;
+			col.gameObject.GetComponent.<Renderer>().material.color = Color(0.0f, 0.0f, 0.0f, 0.05f);
+			yield WaitForSeconds(2);
 			PlayerDead.Play();
 
 
@@ -29,7 +30,7 @@ function OnTriggerEnter(col : Collider) {
 			rb.isKinematic = false; 
 
 			col.gameObject.tag ="Player";
-
+			col.gameObject.GetComponent.<Renderer>().material.color = oldMateiral; // fully opaque
 
 					col.transform.position = Vector3(-6.75, -0.35, 0.23);	
 			Debug.Log("Game over :(");
