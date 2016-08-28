@@ -15,7 +15,7 @@ function OnTriggerEnter(col : Collider) {
 
 	var rb = col.GetComponent.<Rigidbody>();
 	rb.isKinematic = true;
-	yield WaitForSeconds(0.1)
+	yield WaitForSeconds(0.1);
 	rb.isKinematic = false; 
 	Debug.Log("WorldEdge Hit");
 
