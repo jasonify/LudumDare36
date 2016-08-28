@@ -9,6 +9,8 @@ TODOS:
 [ ] game over screen
 [ ]  ** Can make little ticky aniamted characters that stand on the edge
 [ ] feedback
+[ ] maybe lives?
+[ ] 
 
 
 [x] textures
