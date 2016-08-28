@@ -10,7 +10,7 @@ function Update () {
 function OnTriggerEnter(col : Collider) {
 
 
-	col.transform.position = Vector3(0, -0.35, 0);
+	col.transform.position = Vector3(0, 0.12, 0);
 
 
 	var rb = col.GetComponent.<Rigidbody>();

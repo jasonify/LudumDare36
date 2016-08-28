@@ -18,6 +18,9 @@ TODOS:
 [ ] if tag === player
   -- duck a life
 
+-------------
+[ ] Stone Hedge EartQuake
+
 
 
 [ ] player gets knocked into space  --- is disabled for a some time
