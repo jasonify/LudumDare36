@@ -1,7 +1,7 @@
 ﻿var Player : Transform;
 
 var xDist : float = 3;
-var zDist : float = -4;
+var zDist : float = -10;
 
 function Update () {
 	transform.position.z = Player.position.z + zDist;
