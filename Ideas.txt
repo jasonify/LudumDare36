@@ -3,12 +3,23 @@ Goal: Learn Unity & in 3D + Maya
 
 TODOS: 
 
-[ ] sound FX
-[ ] music 
-[ ] fire
-[ ] textures
+
+
+
 [ ] game over screen
-[ ] 
+[ ]  ** Can make little ticky aniamted characters that stand on the edge
+[ ] feedback
+
+
+[x] textures
+[x] sound FX
+[x] music 
+[x] fire
+[x] spawn things were things were
+
+
+0.23
+
 
 
 [ ]  add a surounding box to checkif colliding

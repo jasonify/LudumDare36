@@ -12,6 +12,8 @@ function Start () {
 
 }
 
+var PlayerCrashSound: AudioSource;
+
 function Update () {
 
 	transform.position.x = transform.position.x + Random.Range(xLow, xHigh);
@@ -20,6 +22,10 @@ function Update () {
 }
 
 
-function OnCollisionEnter(collision: Collision) {
+function OnCollisionEnter(col: Collision) {
 	//Debug.Log("Colliding!");
+	if(col.gameObject.tag == "Player"){
+		Debug.Log("PlayerCrash");
+		PlayerCrashSound.Play();	
+	}
 }
