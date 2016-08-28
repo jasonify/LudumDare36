@@ -1,3 +1,5 @@
+Goal: Learn Unity & in 3D + Maya
+
 [ ]  add a surounding box to checkif colliding
 [ ] if so . put back in middle of 
 
@@ -11,6 +13,19 @@
 [ ] starts dropping again to original z?
 
 
+[ ] fire, water, wood , chicken, roasted chicken, stone
+[ ] fire particles
+[ ] add cool lighting
+
+
+-------------------------
+Next game:
+
+
+[ ] do a game with meteor / rails / turn based / 
+[ ] do a mobile game   --> use sprite kit OR UIKIT
+  -- with native code
+  -- with react 
 
 
 
