@@ -22,16 +22,16 @@ function OnTriggerEnter(col : Collider) {
 			var oldMateiral = col.gameObject.GetComponent.<Renderer>().material.color;
 			col.gameObject.GetComponent.<Renderer>().material.color = Color(0.0f, 0.0f, 0.0f, 0.05f);
 			yield WaitForSeconds(2);
-			KillScreen.SetActive(true);
+	//		KillScreen.SetActive(true);
 
-			KillScreen.GetComponent("Animator").enabled = true;
+//			KillScreen.GetComponent("Animator").enabled = true;
 //			KillScreen.GetComponent("Animator").enabled = true;
 
 			yield WaitForSeconds(0.05);
 			PlayerDead.Play();
 			yield WaitForSeconds(0.05);
-			KillScreen.SetActive(false);
-			KillScreen.GetComponent("Animator").enabled = false;
+		//	KillScreen.SetActive(false);
+		//	KillScreen.GetComponent("Animator").enabled = false;
 
 
 			rb.isKinematic = true;
