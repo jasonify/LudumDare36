@@ -1,5 +1,4 @@
-﻿#pragma strict
-
+﻿
 function Start () {
 
 }
@@ -7,6 +6,7 @@ function Start () {
 function Update () {
 }
 
+var KillScreen : GameObject;
 var PlayerDead : AudioSource;
 
 function OnTriggerEnter(col : Collider) {
@@ -22,14 +22,26 @@ function OnTriggerEnter(col : Collider) {
 			var oldMateiral = col.gameObject.GetComponent.<Renderer>().material.color;
 			col.gameObject.GetComponent.<Renderer>().material.color = Color(0.0f, 0.0f, 0.0f, 0.05f);
 			yield WaitForSeconds(2);
+			KillScreen.SetActive(true);
+
+			KillScreen.GetComponent("Animator").enabled = true;
+//			KillScreen.GetComponent("Animator").enabled = true;
+
+			yield WaitForSeconds(0.05);
 			PlayerDead.Play();
+			yield WaitForSeconds(0.05);
+			KillScreen.SetActive(false);
+			KillScreen.GetComponent("Animator").enabled = false;
 
 
 			rb.isKinematic = true;
 			yield WaitForSeconds(0.1);
 			rb.isKinematic = false; 
 
+
 			col.gameObject.tag ="Player";
+
+		
 			col.gameObject.GetComponent.<Renderer>().material.color = oldMateiral; // fully opaque
 
 					col.transform.position = Vector3(-6.75, -0.35, 0.23);	
